@@ -1,0 +1,59 @@
+.events-container {
+    padding-top: 15px;
+    background-image: linear-gradient(black, purple, black);
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.card-wrapper {
+    width: 200px !important;
+    margin: 8px;
+}
+
+.card-image {
+    height: 100%;
+    width: 100%;
+    border: 4px solid rgb(24, 234, 218);
+}
+
+.card-description {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+.year-filter select {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+ .best-sound-container{
+    background-color: #000;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+    }
+.storm-container{
+    background-image: linear-gradient(black,purple,black);
+    color: #fff;
+    padding-top: 30px;
+}
+
+.event-details-container{
+    width: 100%;
+    height: 100%;
+    background-color: #000 !important;
+    color: #fff;
+}
+.card-container{
+    background-color: #000 !important;
+    width: 50%;
+    margin: 0 auto;
+}

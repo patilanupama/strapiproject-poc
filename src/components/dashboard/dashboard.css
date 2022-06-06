@@ -1,0 +1,62 @@
+
+.soundstrom-container, .explore-container, .best-sound-container{
+    background-color: #000;
+    color: #fff;
+    margin: 0 auto;
+    
+    }
+    .language-option{
+    color: #fff;
+    background: #000;
+    }
+    .all-heading{
+        text-align: center;
+        line-height: 1.5;
+        font-weight: 900;
+        font-size: 46px;
+    }
+    .small-text{
+        font-size: 12px;
+    }
+    .soundstrom-subheading{
+        line-height: 1.5;
+        font-weight: 900;
+        font-size: 46px;
+    }
+    .review-container{
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        padding-top: 30px;
+        background-image: linear-gradient( #000, green,#000);
+    }
+    .explore-container, .best-sound-container{
+        padding-top: 50px;
+    }
+    .explore-heading{
+        padding-top: 50px;
+        font-family: sans-serif;
+        font-weight: 900;
+        text-align: center;
+    }
+    .explore-para{
+        color: #fff;
+        font-weight: 400;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+    .explore-btn-container{
+        margin-left: 0px !important;
+    }
+    .explore-btn-container button{
+        margin-left:25px;
+    }
+    .storm-container{
+        background-image: linear-gradient(black,purple,black);
+        color: #fff;
+        padding-top: 30px;
+    }
+    .best-sound-container{
+        padding-bottom: 30px;
+    }

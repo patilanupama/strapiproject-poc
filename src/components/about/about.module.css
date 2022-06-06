@@ -1,0 +1,31 @@
+.lineup-container {
+    /* width: 100%; */
+    margin: 30px;
+}
+
+
+.image-container {
+    width: 30%;
+    border: 5px solid #000;
+    border-radius: 5px;
+}
+
+.image{
+    width: 100%;
+}
+
+.para {
+    max-width: 100%;
+    margin: 30px 0;
+}
+
+.about-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
