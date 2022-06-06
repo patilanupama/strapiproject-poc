@@ -2,7 +2,6 @@ import * as React from "react"
 import { Link, navigate } from "gatsby"
 import { borderStyle } from "../index.module.css"
 import { Form, Button } from "react-bootstrap"
-import Seo from "../seo"
 import { AuthServices } from "../../services/auth.services"
 
 const Register = () => {
@@ -87,13 +86,8 @@ const Register = () => {
   }
   return (
     <>
-      <Seo title="Register" />
-      <div>
-        <Button className="btn btn-primary mb-3">
-          <Link className="text-white text-decoration-none" to="/">
-            Login
-          </Link>
-        </Button>
+      <div className="d-flex justify-content-center align-items-center" style={{height:"100vh"}}>
+       
         <Form
           className={`col-4 mx-auto py-4 px-4 ${borderStyle} needs-validation`}
           onSubmit={handleRegister}
@@ -142,10 +136,16 @@ const Register = () => {
               </Form.Label>
             ) : null}
           </Form.Group>
-
-          <Button type="submit" className="btn btn-primary">
+          <div className="row justify-content-around">
+          <Button type="submit" className="btn btn-primary col-sm-4">
             Register
           </Button>
+          <Button className="btn btn-primary col-sm-4">
+          <Link className="text-white text-decoration-none" to="/">
+            Login
+          </Link>
+        </Button>
+          </div>
         </Form>
       </div>
     </>

@@ -88,11 +88,7 @@ const Login = () => {
   }
   return (
     <>
-      <Button className="btn btn-primary mb-3">
-        <Link className="text-white text-decoration-none" to="/app/register">
-          Register
-        </Link>
-      </Button>
+      <div className="d-flex justify-content-center align-items-center" style={{height:"100vh"}}>
       <Form
         className={`col-4 mx-auto py-4 px-4 ${borderStyle} needs-validation`}
         onSubmit={handleLogin}
@@ -125,10 +121,18 @@ const Login = () => {
             <Form.Label>{fieldErr.password.message}</Form.Label>
           ) : null}
         </Form.Group>
-        <Button type="submit" className="btn btn-primary">
+        <div className="row justify-content-around">
+        <Button type="submit" className="btn btn-primary col-sm-4">
           Login
         </Button>
+        <Button className="btn btn-primary col-sm-4">
+        <Link className="text-white text-decoration-none" to="/app/register">
+          Register
+        </Link>
+      </Button>
+      </div>
       </Form>
+      </div>
     </>
   )
 }

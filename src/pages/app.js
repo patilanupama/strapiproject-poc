@@ -17,10 +17,15 @@ const App = ({ children }) => (
         <Login path="/"/>
         <Register path="/app/register"/>
         <PrivateRoute path="/app/dashboard" component={Dashboard}/>
-        <About path="/app/about"/>
+        <PrivateRoute path="/app/about" component={About}/>
+        <PrivateRoute path="/app/eventCard" component={EventCard}/>
+        <PrivateRoute path="/app/eventCategory" component={EventCategories}/>
+        <PrivateRoute path="/app/event-details/:id" component={EventCardDetails}/>
+
+        {/* <About path="/app/about"/>
         <EventCard path="/app/eventCard"/>
         <EventCategories path="/app/eventCategory"/>
-        <EventCardDetails path="/app/event-details/:id"/>
+        <EventCardDetails path="/app/event-details/:id"/> */}
       </Router>
       </Layout>
     
